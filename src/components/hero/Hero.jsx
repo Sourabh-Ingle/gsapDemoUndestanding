@@ -27,7 +27,7 @@ const Hero = () => {
             duration: 1.8,
             ease: "expo.out",
             stagger: 0.05,
-            opacity:0
+            opacity: 0
         });
 
         gsap.from(paragraphSplit.lines, {
@@ -40,13 +40,13 @@ const Hero = () => {
         });
 
         gsap.timeline({
-                scrollTrigger: {
-                    trigger: "#hero",
-                    start: "top top",
-                    end: "bottom top",
-                    scrub: true,
-                },
-            })
+            scrollTrigger: {
+                trigger: "#hero",
+                start: "top top",
+                end: "bottom top",
+                scrub: true,
+            },
+        })
             .to(".right-leaf", { y: 200 }, 0)
             .to(".left-leaf", { y: -200 }, 0)
             .to(".arrow", { y: 100 }, 0);
@@ -59,7 +59,7 @@ const Hero = () => {
                 trigger: "video",
                 start: startValue,
                 end: endValue,
-                scrub: true,
+                scrub: 2,
                 pin: true,
             },
         });
