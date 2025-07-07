@@ -3,17 +3,17 @@ import './App.css'
 import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 import { ScrollTrigger, SplitText } from 'gsap/all';
+import Navbar from './components/navBarFolder/Navbar';
 
 
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
 const MainHome = () => {
-    const [count, setCount] = useState(0)
+    
   return (
-      <>
-          <div className="flex-center">
-              <h2 className='text-3xl text-indigo-300'>Hello Sourabh</h2>
-          </div>
+      <main>
+          
+          <Navbar />
          
 
           <div className='flex-center'>
@@ -26,7 +26,7 @@ const MainHome = () => {
           </div>
 
 
-      </>
+      </main>
   )
 }
 
