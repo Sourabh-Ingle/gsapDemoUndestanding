@@ -6,6 +6,7 @@ import { ScrollTrigger, SplitText } from 'gsap/all';
 import Navbar from './components/navBarFolder/Navbar';
 import Hero from './components/hero/Hero';
 import Cocktails from './components/cocktails/Cocktails';
+import About from './components/about/About';
 
 
 
@@ -17,6 +18,7 @@ const MainHome = () => {
       <Navbar />
       <Hero />
       <Cocktails />
+      <About />
 
 
     </main>
