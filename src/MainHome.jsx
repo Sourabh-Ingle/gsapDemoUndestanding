@@ -7,6 +7,7 @@ import Navbar from './components/navBarFolder/Navbar';
 import Hero from './components/hero/Hero';
 import Cocktails from './components/cocktails/Cocktails';
 import About from './components/about/About';
+import Art from './components/art/Art';
 
 
 
@@ -19,6 +20,7 @@ const MainHome = () => {
       <Hero />
       <Cocktails />
       <About />
+      <Art />
 
 
     </main>
