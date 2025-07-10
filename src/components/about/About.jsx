@@ -81,6 +81,7 @@ const About = () => {
                     <img src="/images/abt4.png" alt="grid-img-4" />
                 </div>
             </div>
+            <div></div>
 
         </div>
     )
